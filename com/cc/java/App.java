@@ -1,9 +1,9 @@
 package com.cc.java;
 
 public class App {
-    
+
     public static void main(String[] args) {
-     
+
         Queen queen = new Queen();
         Worker worker = new Worker();
         Drone drone = new Drone();
@@ -18,10 +18,9 @@ public class App {
         // HoneyBee bee = new HoneyBee();
         // pollObj(bee);
 
-
     }
 
-    //--- 3. Iteration :: Polymorphie ----- //
+    // --- 3. Iteration :: Polymorphie ----- //
 
     private static void pollObj(HoneyBee obj) {
         output(obj.doYourJob());
@@ -29,12 +28,8 @@ public class App {
         output("---------------------");
     }
 
-
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
 
-
-
 }
-
